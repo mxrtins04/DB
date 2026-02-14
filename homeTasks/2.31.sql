@@ -1,0 +1,4 @@
+SELECT DISTINCT SKU, SKU_Description
+FROM INVENTORY
+WHERE SKU_Description LIKE 'Half-Dome%';
+
